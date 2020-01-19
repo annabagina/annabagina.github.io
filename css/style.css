@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300|IBM+Plex+Mono:300&display=swap');
+
+body {
+    background: #ffffff;
+}
+
+h1 {
+    color: #232323
+}
+
+a {
+    text-decoration: none;
+    color: #6d398b;
+    /*font-family: 'IBM Plex Mono', monospace;*/
+    font-family: 'Exo 2', monospace;
+}
+
+p {
+    font-size: 150%;
+}
+
+.contactPage {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    margin: 52px auto 50px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 10px 0;
+}
+
+.divider {
+    display: block;
+    font-size: 32px;
+    color: #FFF;
+    background: #32afed;
+    padding: 12px 16px;
+    line-height: 43px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.buttonSection {
+    margin-top: 20px;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 100%;
+    color: #FFF;
+    background: #5dc390;
+    border-radius: 22px;
+    overflow: hidden;
+    display: block;
+    padding: 15px 27px 13px;
+    text-transform: uppercase;
+}
+
+.button.instagram {
+    background: #6d398b;
+}
+
+.button.telegram {
+    background: #32afed;
+}
+
+.button.whatsapp {
+    background: #07b825;
+}
+
+.button.youtube {
+    background: #ff0000;
+}
