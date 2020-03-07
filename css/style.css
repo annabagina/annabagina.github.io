@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2:300|IBM+Plex+Mono:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300|IBM+Plex+Mono:300|Amiri&display=swap');
 
 body {
     background: #ffffff;
@@ -11,7 +11,6 @@ h1 {
 a {
     text-decoration: none;
     color: #6d398b;
-    /*font-family: 'IBM Plex Mono', monospace;*/
     font-family: 'Exo 2', monospace;
 }
 
@@ -34,7 +33,7 @@ p {
 .divider {
     display: block;
     font-size: 32px;
-    color: #FFF;
+    color: #ffffff;
     background: #32afed;
     padding: 12px 16px;
     line-height: 43px;
@@ -51,7 +50,7 @@ p {
     font-size: 18px;
     font-weight: bold;
     line-height: 100%;
-    color: #FFF;
+    color: #ffffff;
     background: #5dc390;
     border-radius: 22px;
     overflow: hidden;
@@ -75,6 +74,15 @@ p {
 .button.youtube {
     background: #ff0000;
 }
+
 .button.vk {
     background: #4a76a8;
+}
+
+.button.dior {
+    background: #ffffff;
+    color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    font-family: 'Amiri', serif;
 }
