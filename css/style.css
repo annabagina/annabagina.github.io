@@ -59,6 +59,10 @@ p {
     text-transform: uppercase;
 }
 
+.button.teleshko {
+    background: #6d398b;
+}
+
 .button.instagram {
     background: #6d398b;
 }
